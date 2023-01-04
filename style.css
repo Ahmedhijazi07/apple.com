@@ -1,0 +1,267 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: gray;
+    color: lightgray;
+    padding: 5px 20px;
+}
+.navbar .navigation{
+    display: flex;
+
+
+}
+.navbar li a{
+     margin-left :35px; 
+     text-decoration: none;
+     color: lightgrey;
+
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+.navbar .navigation .inp:focus{
+    background-color:white;
+    color: black;
+   
+}
+.navbar .navigation .inp{
+    border-radius: 5%;
+    background-color: gray;
+  
+}
+.pr1{
+    background-image: url(./assets/iphone.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+  
+}
+.cont2{
+    background-image: url(./assets/apple.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+}
+.cont3{
+    background-image: url(./assets/watch.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+}
+.cont4{
+    width: 100%;
+    height: 560px;
+    display: flex;
+}
+.cont4 .iphone{
+    background-image: url(./assets/phone.jpg);
+    width: 50%;
+    height: 550px;
+    background-size: cover;
+}
+.cont4 .ipad{
+    background-image: url(./assets/ipad.jpg);
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.cont5{
+    width: 100%;
+    height: 720px;
+    display: flex;
+}
+.cont5 .watch{
+    background-image: url(./assets/ultrawar.jpg);
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+
+}
+.cont5 .pod{
+    background-image: url(./assets/airpod.jpg);
+    width: 50%;
+    height: 710px;
+    background-size: cover;
+}
+.cont6{
+    width: 100%;
+    height: 360px;
+    display: flex;
+}
+.cont6 .mac{
+    background-image: url(./assets/mac.jpg);
+width: 50%;
+height: 340px;
+    background-size: cover;
+}
+.cont6 .card{
+    background-image: url(./assets/card.jpg);
+    width: 50%;
+    height: 340px;
+        background-size: cover;
+}
+.pr1 h1{
+    text-align: center;
+    font-size: 2.5em;
+
+}
+.pr1 p{
+    text-align: center;
+    font-size: 1.4em;
+}
+.pr1 p a{
+    text-decoration: none;
+    color: rgba(63, 63, 212, 0.678);
+}
+.pr1 p a:hover{
+    text-decoration: underline;
+    color:rgb(43, 12, 71)
+}
+.cont2 h1{
+    text-align: center;
+    font-size: 2.3em;
+   color: white;
+   padding-top: 180px;
+}
+.cont2 p{
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+}
+.cont2 p a{
+    text-decoration: none;
+    color: rgba(63, 63, 212, 0.678);
+}
+.cont2 p a:hover{
+    text-decoration: underline;
+    color: rgb(30, 190, 57);
+}
+.cont3 h1{
+    text-align: center;
+}
+.cont3 p{
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+.cont3 p a{
+    text-decoration: none;
+    color: rgba(63, 63, 212, 0.678);
+}
+.cont3 p a:hover{
+    text-decoration: underline;
+color: aqua;
+}
+.cont4 .iphone h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    
+}
+.cont4 .iphone p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+.cont4 .iphone p a{
+    text-decoration: none;
+    color: rgba(63, 212, 150, 0.678);
+}
+.cont4 .iphone p a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.cont4 .ipad h1{
+    text-align: center;
+    font-size: 2.5em;   
+}
+.cont4 .ipad p{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.cont4 .ipad p a{
+    text-decoration: none;
+    color:rgba(63, 63, 212, 0.678);
+} 
+.cont4 .ipad p a:hover{
+    text-decoration: underline;
+    color:rgb(46, 11, 78) ;
+}
+.cont5 .watch h1{
+    text-align: center;
+}
+.cont5 .watch p{
+    text-align: center;
+    font-size: 1.3em;
+}
+.cont5 .watch p a{
+    text-decoration: none;
+    color:rgba(63, 63, 212, 0.678);
+}
+.cont5 .watch p a:hover{
+    text-decoration: underline;
+    color:rgb(46, 11, 78) ;
+}
+.cont5 .pod h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding-top: 25px;
+}
+.cont5 .pod p{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.cont5 .pod p a{
+    text-decoration: none;
+    color:rgba(63, 63, 212, 0.678);
+}
+.cont5 .pod p a:hover{
+    text-decoration: underline;
+    color:aqua ;
+}
+.cont6 .mac h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+.cont6 .mac p{
+    text-align: center;
+    font-size: 1.5em;
+}
+.cont6 .mac p a{
+    text-decoration: none;
+    color:rgba(63, 63, 212, 0.678);
+}
+.cont6 .mac p a:hover{
+    text-decoration: underline;
+    color: rgb(50, 10, 87);
+}
+.cont6 .card h1{
+    text-align: center;
+}
+.cont6 .card p{
+    text-align: center;
+    font-size: 1.5em;
+}
+.cont6 .card p a{
+    text-decoration: none;
+    color:rgba(63, 63, 212, 0.678);
+}
+.cont6 .card p a:hover{
+    text-decoration: underline;
+    color: rgb(50, 10, 87);
+}
